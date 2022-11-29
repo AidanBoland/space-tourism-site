@@ -24,6 +24,7 @@ yarn-error.log*
 #frontend mentor design and starter files
 .design
 
-#vscode stuff
+#dev env stuff
 .vscode
-.code-workspace
+*.code-workspace
+.prettierrc.json
