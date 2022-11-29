@@ -22,9 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 #frontend mentor design and starter files
-.design
+/.design
 
 #dev env stuff
-.vscode
-*.code-workspace
-.prettierrc.json
+/.vscode
+/*.code-workspace
+/.prettierrc.json
