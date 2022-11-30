@@ -1,5 +1,5 @@
 import React from 'react';
-import { /*Outlet,*/ Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.scss';
 
 import Navbar from './components/navbar/navbar';
