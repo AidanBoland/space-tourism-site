@@ -1,9 +1,8 @@
-import React from "react";
+import React from 'react';
+import './crew.scss';
 
 function Crew() {
-    return(
-        <h1>Crew</h1>
-    )
+    return <div className='crewBackground'></div>;
 }
 
 export default Crew;

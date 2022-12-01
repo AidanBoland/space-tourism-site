@@ -1,5 +1,45 @@
 @import '../../index.scss';
 
+.topBanner {
+    width: 100vw;
+    margin-top: 2.5rem;
+    position: absolute;
+    height: 6rem;
+    display: flex;
+    justify-content: right;
+}
+
+.logoContainer {
+    margin-left: 6rem;
+    width: min-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .logo {
+        width: 3rem;
+        height: 3rem;
+        background: url('../../assets/images/shared/logo.svg');
+    }
+}
+
+.navbarLineContainer {
+    z-index: 9999;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .navbarLine {
+        margin-left: 3rem;
+        height: 1px;
+        opacity: 0.25;
+        width: 100%;
+        background-color: #ffffff;
+    }
+}
+
 nav {
     background: rgba($color: #ffffff, $alpha: 0.04);
     -webkit-backdrop-filter: blur(40.7742px);
@@ -19,8 +59,7 @@ nav {
     align-items: center;
     gap: 2rem;
 
-    position: relative;
-    float: right;
+    right: 0%;
 
     div {
         position: relative;
@@ -43,6 +82,8 @@ nav {
                     .navNumber {
                         float: inline-start;
                         font-weight: 700;
+                        font-size: $fontSize-400;
+                        letter-spacing: 2.7px;
                         padding-right: 0.5rem;
                     }
 
@@ -86,6 +127,8 @@ nav {
                     .navNumber {
                         float: inline-start;
                         font-weight: 700;
+                        font-size: $fontSize-400;
+                        letter-spacing: 2.7px;
                         padding-right: 0.5rem;
                     }
 

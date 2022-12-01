@@ -1,0 +1,7 @@
+@import '../../index.scss';
+
+.crewBackground {
+    background: $darkBlue url('../../assets/images/crew/background-crew-desktop.jpg') no-repeat right top;
+    background-size: cover;
+    min-height: 100vh;
+}

@@ -1,0 +1,7 @@
+@import '../../index.scss';
+
+.destinationBackground {
+    background: $darkBlue url('../../assets/images/destination/background-destination-desktop.jpg') no-repeat right top;
+    background-size: cover;
+    min-height: 100vh;
+}

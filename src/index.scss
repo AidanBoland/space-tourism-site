@@ -1,7 +1,7 @@
 //colours
-$darkBlue: #0B0D17;
-$accentBlue: #D0D6F9;
-$white: #FFFFFF;
+$darkBlue: #0b0d17;
+$accentBlue: #d0d6f9;
+$white: #ffffff;
 
 $mainTextColour: $white;
 $accentTextColour: $accentBlue;
@@ -18,23 +18,27 @@ $fontSize-1000: 9.375rem;
 
 //-------------------RESET-------------------//
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font: inherit;
+    margin: 0;
+    padding: 0;
+    font: inherit;
 }
 
-img, picture, svg, video {
-  display: block;
-  max-width: 100%;
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
 }
 
 //-------------------RESET-------------------//
-
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 
@@ -52,4 +56,74 @@ body {
 h1 {
     font-size: $fontSize-1000;
     font-family: 'Bellefair';
+    font-weight: 400;
+    color: $white;
+}
+
+h2 {
+    font-size: $fontSize-900;
+    font-family: 'Bellefair';
+    font-weight: 400;
+    color: $white;
+}
+
+h3 {
+    font-size: $fontSize-800;
+    font-family: 'Bellefair';
+    font-weight: 400;
+    color: $white;
+}
+
+h4 {
+    font-size: $fontSize-700;
+    font-family: 'Bellefair';
+    font-weight: 400;
+    color: $white;
+}
+
+h5 {
+    font-size: $fontSize-600;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    color: $accentBlue;
+    letter-spacing: 4.75px;
+}
+
+p {
+    font-size: $fontSize-500;
+    font-family: 'Barlow';
+    font-weight: 400;
+    color: $white;
+    line-height: 2rem;
+}
+
+p.navText {
+    font-size: $fontSize-400;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    color: $white;
+    letter-spacing: 2.7px;
+}
+
+p.subHeadingOne {
+    font-size: $fontSize-600;
+    font-family: 'Bellefair';
+    font-weight: 400;
+    color: $white;
+}
+
+p.subHeadingTwo {
+    font-size: $fontSize-300;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    letter-spacing: 2.35px;
+}
+
+.halfDiv {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
 }

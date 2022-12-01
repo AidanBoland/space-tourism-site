@@ -1,9 +1,8 @@
-import React from "react";
+import React from 'react';
+import './destination.scss';
 
 function Destination() {
-    return (
-        <h1>destination</h1>
-    )
+    return <div className='destinationBackground'></div>;
 }
 
 export default Destination;

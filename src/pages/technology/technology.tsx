@@ -1,9 +1,8 @@
-import React from "react";
+import React from 'react';
+import './technology.scss';
 
 function Technology() {
-    return(
-        <h1>Technology</h1>
-    )
+    return <div className='technologyBackground'></div>;
 }
 
 export default Technology;
