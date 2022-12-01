@@ -27,5 +27,5 @@ yarn-error.log*
 #dev env stuff
 /.vscode
 /*.code-workspace
-/.prettierrc.json
+/.prettierrc
 .hintrc

@@ -4,10 +4,10 @@ import './App.scss';
 
 import Navbar from './components/navbar/navbar';
 
-import Home from './pages/home';
-import Destination from './pages/destination';
-import Crew from './pages/crew';
-import Technology from './pages/technology';
+import Home from './pages/home/home';
+import Destination from './pages/destination/destination';
+import Crew from './pages/crew/crew';
+import Technology from './pages/technology/technology';
 
 function App() {
     return (

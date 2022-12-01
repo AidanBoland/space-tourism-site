@@ -1,32 +1,61 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './navbar.scss';
 
 function Navbar() {
     return (
-        <nav id="navMenu">
-            <ul>
-                <li>
-                    <Link to="/" id="navlinkToHome">
-                        HOME
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/destination" id="navlinkToDestination">
-                        DESTINATION
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/crew" id="navlinkToCrew">
-                        CREW
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/technology" id="navlinkToTechnology">
-                        TECHNOLOGY
-                    </Link>
-                </li>
-            </ul>
+        <nav id='navMenu'>
+            <div>
+                <NavLink to='/' id='homeNav' className={(navData) => (navData.isActive ? 'navlinkActive' : 'navlink')}>
+                    <div>
+                        <div>
+                            <p className='navNumber'>00</p>
+                            <p className='navText'>HOME</p>
+                        </div>
+                    </div>
+
+                    <div className='box' />
+                </NavLink>
+            </div>
+
+            <div>
+                <NavLink to='/destination' id='destinationNav' className={(navData) => (navData.isActive ? 'navlinkActive' : 'navlink')}>
+                    <div>
+                        <div>
+                            <p className='navNumber'>01</p>
+                            <p className='navText'>DESTINATION</p>
+                        </div>
+                    </div>
+
+                    <div className='box' />
+                </NavLink>
+            </div>
+
+            <div>
+                <NavLink to='/crew' id='crewNav' className={(navData) => (navData.isActive ? 'navlinkActive' : 'navlink')}>
+                    <div>
+                        <div>
+                            <p className='navNumber'>02</p>
+                            <p className='navText'>CREW</p>
+                        </div>
+                    </div>
+
+                    <div className='box' />
+                </NavLink>
+            </div>
+
+            <div>
+                <NavLink to='/technology' id='techNav' className={(navData) => (navData.isActive ? 'navlinkActive' : 'navlink')}>
+                    <div>
+                        <div>
+                            <p className='navNumber'>03</p>
+                            <p className='navText'>TECHNOLOGY</p>
+                        </div>
+                    </div>
+
+                    <div className='box' />
+                </NavLink>
+            </div>
         </nav>
     );
 }
