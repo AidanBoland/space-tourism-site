@@ -75,21 +75,17 @@ nav {
                 justify-content: center;
 
                 div {
-                    display: inline;
+                    display: flex;
+                    flex-direction: row;
                     height: min-content;
                     width: max-content;
 
                     .navNumber {
-                        float: inline-start;
                         font-family: 'Barlow Condensed';
                         font-weight: 700;
                         font-size: $fontSize-400;
                         letter-spacing: 2.7px;
                         padding-right: 0.5rem;
-                    }
-
-                    .navText {
-                        float: inline-end;
                     }
                 }
             }
@@ -121,21 +117,17 @@ nav {
                 justify-content: center;
 
                 div {
-                    display: inline;
+                    display: flex;
+                    flex-direction: row;
                     height: min-content;
                     width: max-content;
 
                     .navNumber {
-                        float: inline-start;
                         font-family: 'Barlow Condensed';
                         font-weight: 700;
                         font-size: $fontSize-400;
                         letter-spacing: 2.7px;
                         padding-right: 0.5rem;
-                    }
-
-                    .navText {
-                        float: inline-end;
                     }
                 }
             }
