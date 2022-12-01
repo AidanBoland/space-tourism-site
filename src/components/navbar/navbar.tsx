@@ -2,6 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './navbar.scss';
 
+//TODO weird line and logo
+
 function Navbar() {
     return (
         <nav id='navMenu'>
