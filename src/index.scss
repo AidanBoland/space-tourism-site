@@ -29,6 +29,8 @@ $fontSize-1000: 9.375rem;
     margin: 0;
     padding: 0;
     font: inherit;
+    background: none;
+    border: none;
 }
 
 img,
@@ -41,7 +43,7 @@ video {
 
 //-------------------RESET-------------------//
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Barlow:wght@400;700&family=Bellefair&display=swap');
 
 :root {
     background-color: $darkBlue;
@@ -127,4 +129,25 @@ p.subHeadingTwo {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 20%;
+}
+
+.pageHeading {
+    width: 100%;
+    position: absolute;
+    margin-top: 13.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 10.4rem;
+    gap: 1.75rem;
+}
+
+.pageHeadingNumber {
+    color: $white;
+    font-weight: 700;
+    opacity: 0.25;
+}
+
+.pageHeadingText {
+    color: $white;
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import './home.scss';
 
+import ExploreButton from '../../components/exploreButton/exploreButton';
+
 function Home() {
     return (
         <div className='homeBackground'>
@@ -12,7 +14,9 @@ function Home() {
                     back, and relax because we’ll give you a truly out of this world experience!
                 </p>
             </div>
-            <div className='halfDiv'></div>
+            <div className='halfDiv' id='right'>
+                <ExploreButton />
+            </div>
         </div>
     );
 }

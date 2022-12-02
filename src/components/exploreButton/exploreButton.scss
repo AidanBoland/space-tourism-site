@@ -1,0 +1,32 @@
+@import '../../index.scss';
+
+.exploreButtonOuter {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 50%;
+    background-color: rgba($color: #ffffff, $alpha: 0);
+    transition: background-color 0.25s;
+
+    .exploreButtonInner {
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $white;
+        border-radius: 50%;
+        width: 17.125rem;
+        height: 17.125rem;
+
+        h4 {
+            color: $darkBlue;
+        }
+    }
+
+    &:hover {
+        background-color: rgba($color: #ffffff, $alpha: 0.1);
+    }
+}
