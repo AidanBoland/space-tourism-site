@@ -13,6 +13,9 @@
     flex-direction: row;
     justify-content: right;
     height: 2.125rem;
+    .navText {
+        color: $accentBlue;
+    }
 }
 
 .destinationInfoPanel {
