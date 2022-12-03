@@ -106,6 +106,7 @@ p.navText {
     font-weight: 400;
     color: $white;
     letter-spacing: 2.7px;
+    text-align: center;
 }
 
 p.subHeadingOne {
@@ -133,8 +134,8 @@ p.subHeadingTwo {
 
 .pageHeading {
     width: 100%;
-    position: absolute;
-    margin-top: 13.25rem;
+    position: relative;
+    padding-top: 13.25rem;
     display: flex;
     flex-direction: row;
     justify-content: left;
