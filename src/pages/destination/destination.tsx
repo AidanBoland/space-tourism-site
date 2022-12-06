@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './destination.scss';
 
 import DestinationNav from './destinationNav';
+import { showDestinationInfo } from './showDestinationInfo';
 
 import Moon from './destinations/moon';
 import Mars from './destinations/mars';
@@ -9,6 +10,10 @@ import Europa from './destinations/europa';
 import Titan from './destinations/titan';
 
 function Destination() {
+    useEffect(() => {
+        showDestinationInfo('moonInfoPanel', 'moonButton', 'moonUnderline');
+    }, []);
+
     return (
         <div className='destinationBackground'>
             <div className='pageHeading'>
